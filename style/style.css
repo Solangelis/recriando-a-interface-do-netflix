@@ -43,8 +43,8 @@ header nav a:hover{
 
 /*filme principal*/
 .filme-principal{
-    font: size 18px;
-    background: url('/img/you-are-my-destiny-2.jpg') ;
+    font-size:  18px;
+    background: url('../img/youAre.jpg') no-repeat center center;;
 
     height: 700px;
     background-size: cover;
@@ -53,6 +53,16 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center ;
     align-items: flex-start ;
+    padding: 20px
+    
+}
+
+
+.filme-principal .titulo {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
 }
 
 .filme-principal .descricao{
@@ -67,6 +77,8 @@ header nav a:hover{
 
 }
 
+
+
 .botao{
   background-color: rgba(0,0,0,.50);
   border:none;
@@ -75,9 +87,10 @@ header nav a:hover{
   padding: 15px 30px;
   font-size: 12px;
   margin-right: 15px;
-
+  
   cursor: pointer; 
   transition: .3s ease all;
+
 }
 
 .botao:hover{
@@ -106,5 +119,5 @@ header nav a:hover{
 }
 
 .carrosel-filmes{
-  margin-top: 5px;
+  margin-top: 20px;
 }
